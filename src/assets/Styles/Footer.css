@@ -1,0 +1,68 @@
+.footer{
+    background-color: #171a1f;
+    color: white;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 2%;
+}
+.Logo img{
+    height: 30px;
+}
+.submit-btn{
+    background-color: #636ae8;
+    border: none;
+    padding: 7px 25px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#subscribe-input{
+    height: 30px;
+    width: 18%;
+    padding-left: 20px;
+}
+#subscribe-input:focus{
+    outline: none;
+}
+.email-sec{
+    text-align: center;
+    padding: 2% 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.links ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.copy-rights{
+    text-align: center;
+    padding: 2% 0;
+}
+.error-message{
+    color: red;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links ul li {
+    margin: 10px 0;
+}
+
+.links a {
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #636ae8; 
+}
+

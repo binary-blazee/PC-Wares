@@ -1,0 +1,27 @@
+.home{
+    background-color: black;
+}
+.intro{
+    background-image: url(../images/Home-bg.png);
+    height: 90vh;
+    /* align-content:end; */
+    position: relative;
+}
+.intro button{
+    padding: 0.5% 2%;
+    font-size: larger;
+    border-radius: 10px;
+    /* margin-left: 8%; */
+    position: absolute;
+    bottom: 7%;
+    left: 8%;
+}
+.product-div{
+    text-align: center;
+    padding: 2% 0;
+    color: white;
+}
+.product{
+    background-color: #171a1f;
+    
+}
