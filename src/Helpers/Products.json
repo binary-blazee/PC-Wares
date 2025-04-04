@@ -1,0 +1,225 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Processors",
+        "slug": "processors",
+        "products": [
+          {
+            "id": 101,
+            "name": "Intel Core i9-13900K",
+            "slug": "intel-core-i9-13900k",
+            "price": 599.99,
+            "description": "High-performance processor for gaming and content creation.",
+            "brand": "Intel",
+            "image": "https://m.media-amazon.com/images/I/51OrTOYrXtL.jpg",
+            "stock_quantity": 150,
+            "ratings": 4.8,
+            "reviews_count": 120
+          },
+          {
+            "id": 102,
+            "name": "AMD Ryzen 7 7800X",
+            "slug": "amd-ryzen-7-7800x",
+            "price": 449.99,
+            "description": "Powerful processor for multitasking and gaming.",
+            "brand": "AMD",
+            "image": "https://cdn.neowin.com/news/images/uploaded/2023/04/1681794786_ryzen_7800x3d_package_story.jpg",
+            "stock_quantity": 200,
+            "ratings": 4.6,
+            "reviews_count": 100
+          },
+          {
+            "id": 103,
+            "name": "Intel Core i7-12700K",
+            "slug": "intel-core-i7-12700k",
+            "price": 409.99,
+            "description": "Great processor for gaming and productivity.",
+            "brand": "Intel",
+            "image": "https://m.media-amazon.com/images/I/51S-BhrxT6L.jpg",
+            "stock_quantity": 180,
+            "ratings": 4.7,
+            "reviews_count": 95
+          },
+          {
+            "id": 104,
+            "name": "AMD Ryzen 5 7600X",
+            "slug": "amd-ryzen-5-7600x",
+            "price": 349.99,
+            "description": "Affordable yet powerful processor for gaming and multitasking.",
+            "brand": "AMD",
+            "image": "https://www.amd.com/content/dam/amd/en/images/products/processors/ryzen/2505503-ryzen-5-7600x.jpg",
+            "stock_quantity": 210,
+            "ratings": 4.5,
+            "reviews_count": 85
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Graphics Cards",
+        "slug": "graphics-cards",
+        "products": [
+          {
+            "id": 201,
+            "name": "NVIDIA GeForce RTX 3080",
+            "slug": "nvidia-geforce-rtx-3080",
+            "price": 799.99,
+            "description": "Next-gen graphics card for 4K gaming and ray tracing.",
+            "brand": "NVIDIA",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSifRHkCI38rVDMoEitP_9uVvGv2Ovf8c3Hmw&s",
+            "stock_quantity": 50,
+            "ratings": 4.9,
+            "reviews_count": 200
+          },
+          {
+            "id": 202,
+            "name": "AMD Radeon RX 6800 XT",
+            "slug": "amd-radeon-rx-6800-xt",
+            "price": 749.99,
+            "description": "High-performance graphics card for demanding games.",
+            "brand": "AMD",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAsqiXvKW0Nceyr6mq_GW3_WmRzo1RhfEM6g&s",
+            "stock_quantity": 75,
+            "ratings": 4.7,
+            "reviews_count": 150
+          },
+          {
+            "id": 203,
+            "name": "NVIDIA GeForce RTX 3070",
+            "slug": "nvidia-geforce-rtx-3070",
+            "price": 499.99,
+            "description": "Powerful graphics card for smooth gaming experience.",
+            "brand": "NVIDIA",
+            "image": "https://i7solutions.in/wp-content/uploads/2020/11/Geforce-rtx-3070-ventus-2x-oc.jpg",
+            "stock_quantity": 80,
+            "ratings": 4.8,
+            "reviews_count": 175
+          },
+          {
+            "id": 204,
+            "name": "AMD Radeon RX 6700 XT",
+            "slug": "amd-radeon-rx-6700-xt",
+            "price": 549.99,
+            "description": "Great performance for 1440p gaming and beyond.",
+            "brand": "AMD",
+            "image": "https://m.media-amazon.com/images/I/711OlprqckL.jpg",
+            "stock_quantity": 65,
+            "ratings": 4.6,
+            "reviews_count": 120
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Motherboards",
+        "slug": "motherboards",
+        "products": [
+          {
+            "id": 301,
+            "name": "MSI MAG B550 TOMAHAWK WIFI",
+            "slug": "msi-mag-b550-tomahawk-wifi",
+            "price": 139.99,
+            "description": "Mid-range motherboard with Wi-Fi for Ryzen processors.",
+            "brand": "MSI",
+            "image": "https://m.media-amazon.com/images/I/61fUSCaxPvL.jpg",
+            "stock_quantity": 120,
+            "ratings": 4.5,
+            "reviews_count": 80
+          },
+          {
+            "id": 302,
+            "name": "ASUS ROG Strix Z590-E",
+            "slug": "asus-rog-strix-z590-e",
+            "price": 299.99,
+            "description": "Premium motherboard for Intel 10th and 11th gen processors.",
+            "brand": "ASUS",
+            "image": "https://rukminim2.flixcart.com/image/850/1000/kovsvbk0/motherboard/3/q/6/rog-strix-z590-e-gaming-wifi-asus-original-imag38xg7kgzrevk.jpeg?q=90&crop=false",
+            "stock_quantity": 90,
+            "ratings": 4.7,
+            "reviews_count": 95
+          },
+          {
+            "id": 303,
+            "name": "Gigabyte B450 AORUS PRO WIFI",
+            "slug": "gigabyte-b450-aorus-pro-wifi",
+            "price": 109.99,
+            "description": "Affordable motherboard for Ryzen processors with Wi-Fi.",
+            "brand": "Gigabyte",
+            "image": "https://m.media-amazon.com/images/I/71L4KUIx2NL.jpg",
+            "stock_quantity": 100,
+            "ratings": 4.6,
+            "reviews_count": 70
+          },
+          {
+            "id": 304,
+            "name": "ASRock Z590 Phantom Gaming 4",
+            "slug": "asrock-z590-phantom-gaming-4",
+            "price": 179.99,
+            "description": "High-performance motherboard for Intel processors.",
+            "brand": "ASRock",
+            "image": "https://m.media-amazon.com/images/I/71zHbuRc-LL.jpg",
+            "stock_quantity": 85,
+            "ratings": 4.7,
+            "reviews_count": 110
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Storage",
+        "slug": "storage",
+        "products": [
+          {
+            "id": 401,
+            "name": "Samsung 970 EVO Plus 1TB SSD",
+            "slug": "samsung-970-evo-plus-1tb",
+            "price": 129.99,
+            "description": "Fast NVMe SSD for high-speed data transfer.",
+            "brand": "Samsung",
+            "image": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/samsung/ssd/mz-v7s1t0bw/mz-v7s1t0bw-6-600x315w.jpg",
+            "stock_quantity": 250,
+            "ratings": 4.8,
+            "reviews_count": 300
+          },
+          {
+            "id": 402,
+            "name": "Western Digital Black 2TB HDD",
+            "slug": "wd-black-2tb-hdd",
+            "price": 99.99,
+            "description": "High-capacity HDD for storing large files.",
+            "brand": "Western Digital",
+            "image": "https://www.jumbo-computer.com/cdn/shop/files/WD_2TB_SN850X_800x.png?v=1739431623",
+            "stock_quantity": 180,
+            "ratings": 4.6,
+            "reviews_count": 120
+          },
+          {
+            "id": 403,
+            "name": "Crucial MX500 500GB SSD",
+            "slug": "crucial-mx500-500gb-ssd",
+            "price": 59.99,
+            "description": "Affordable SSD for everyday use.",
+            "brand": "Crucial",
+            "image": "https://www.tpstech.in/cdn/shop/products/61qbO7hideL._SL1280.jpg?v=1569095384&width=1445",
+            "stock_quantity": 300,
+            "ratings": 4.7,
+            "reviews_count": 140
+          },
+          {
+            "id": 404,
+            "name": "Seagate Barracuda 4TB HDD",
+            "slug": "seagate-barracuda-4tb-hdd",
+            "price": 109.99,
+            "description": "Reliable 4TB HDD for large storage needs.",
+            "brand": "Seagate",
+            "image": "https://www.seagate.com/content/dam/seagate/assets/products/hard-drives/barracuda-2-5-hard-drive/shared/images/barracuda-5tb-3-5-1440x990.jpg/_jcr_content/renditions/16-10-medium-640x400.jpg",
+            "stock_quantity": 220,
+            "ratings": 4.5,
+            "reviews_count": 110
+          }
+        ]
+      }
+    ]
+  }
+  

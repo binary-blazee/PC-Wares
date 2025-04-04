@@ -11,7 +11,7 @@ function Footer() {
   return (
     <div className='footer'>
     <div className='Logo'>
-        <img src='src/assets/images/Logo.png' alt='Logo'/>
+        <img src='../../src/assets/images/Logo.png' alt='Logo'/>
         <h3>PC Wares</h3>
     </div>
     <div className='email-sec'>
