@@ -3,6 +3,7 @@ import '../assets/Styles/Footer.css'
 import { Link } from 'react-router-dom'
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
+import Logo from '../assets/images/Logo.png'
 const emailSchema = Yup.object({
   email: Yup.string().email('Email is not valid').required('Email is required')
 });
@@ -11,7 +12,7 @@ function Footer() {
   return (
     <div className='footer'>
     <div className='Logo'>
-        <img src='../../src/assets/images/Logo.png' alt='Logo'/>
+        <img src={Logo} alt='Logo'/>
         <h3>PC Wares</h3>
     </div>
     <div className='email-sec'>
