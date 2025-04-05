@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/Styles/Header.css";
 import PersonIcon from "@mui/icons-material/Person";
 import { Link } from "react-router-dom";
+import Logo from '../assets/images/Logo.png'
 function Header() {
   return (
     <>
@@ -10,7 +11,7 @@ function Header() {
           <div className="image-nav">
             <div className="logo-image-name">
               <div className="logo-img">
-                <img src="../../src/assets/images/Logo.png" alt="" />
+                <img src={Logo} alt="" />
               </div>
               <h1>PC Wares</h1>
             </div>
