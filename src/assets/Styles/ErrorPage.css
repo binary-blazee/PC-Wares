@@ -1,0 +1,82 @@
+
+  
+  .page {
+    height: 100vh;
+    background: url("https://media.istockphoto.com/id/2162251347/video/circuit-board-hardware-and-technology-for-cloud-computing-innovation-by-black-background-with.jpg?s=640x640&k=20&c=pbZIh6ZLl5U8oJU_ov8AMLgPcMhlGlVNu7PMWzcRydQ=")
+      no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+ 
+  
+  .container {
+    text-align: center;
+    color: #fff;
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.546);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+  }
+  
+  .error-code {
+    font-size: 120px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #7f55e0;
+    display: inline-block;
+    border-right: 4px solid #7f55e0;
+  
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1s steps(4) infinite alternate,
+      cursor 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 4ch;
+    }
+  }
+  
+  @keyframes cursor {
+    50% {
+      border-color: transparent;
+    }
+    100% {
+      border-color: #7f55e0;
+    }
+  }
+  
+  .error-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .home-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #7f55e0;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #636ae8;
+  }
+  

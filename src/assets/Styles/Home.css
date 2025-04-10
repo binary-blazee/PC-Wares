@@ -52,10 +52,12 @@
 .product h3 {
     margin: 15px 0;
     font-size: 1.2rem;
+    text-align: center;
 }
 
-.product button {
+.explore-btn {
     background-color: #7f55e0;
+    width: 100%;
     color: white;
     padding: 10px ;
     border: none;

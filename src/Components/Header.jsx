@@ -11,7 +11,7 @@ function Header() {
           <div className="image-nav">
             <div className="logo-image-name">
               <div className="logo-img">
-                <img src={Logo} alt="" />
+                <img src={Logo} alt="Logo"/>
               </div>
               <h1>PC Wares</h1>
             </div>

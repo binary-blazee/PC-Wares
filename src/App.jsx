@@ -3,26 +3,34 @@ import Layout from "./Components/Layout"
 import Home from "./Pages/Home"
 import Products from "./Pages/Products"
 import Contact from "./Pages/Contact"
-const router=createBrowserRouter([
+import ProductDescription from "./Pages/ProductDescription"
+import ErrorPage from './Pages/ErrorPage'
+const router = createBrowserRouter([
   {
-    path:'/',
-    element:<Layout/>,
+    path: '/',
+    element: <Layout />,
+    errorElement:<ErrorPage/>,
     children: [
       {
         path: '',
         element: <Home />
       },
       {
-        path:'products',
-        element:<Products/>
+        path: 'products',
+        element: <Products />
       },
       {
-        path:'contact',
-        element:<Contact/>
+        path: 'description',
+        element: <ProductDescription />
+      },
+      {
+        path: 'contact',
+        element: <Contact />
       }
     ]
   }
-])
+]);
+
 
 function App() {
 
