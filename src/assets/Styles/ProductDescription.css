@@ -1,0 +1,42 @@
+.product-not-found {
+    height: 51.5vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   }
+   
+   .product-not-found-image {
+    height: 150px;
+   }
+   
+   .product-not-found-text {
+    font-size: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid hashtag#7f55e0;
+    width: 0;
+    animation: typinganimation 2.5s steps(19) 1s forwards, cursoranimation 0.75s step-end infinite;
+   }
+   
+   @keyframes typinganimation {
+    from { width: 0 }
+    to { width: 16ch }
+   }
+   
+   @keyframes cursoranimation {
+    50% { border-color: transparent }
+    100% { border-color: hashtag#7f55e0 }
+   }
+
+.p-description{
+    display: flex;
+    gap: 10%;
+    background-color: black;
+    color: white;
+}
+.pd-image{
+height: 400px;
+}

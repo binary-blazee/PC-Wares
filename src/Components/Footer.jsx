@@ -38,7 +38,7 @@ function Footer() {
                     Submit
                 </button>
                 {errors.email && touched.email && (
-                    <div className='error-message'>{errors.email}</div>
+                    <div className='error-message-footer'>{errors.email}</div>
                 )}
                 
             </Form>
